@@ -1,3 +1,5 @@
+#jquery.navbar.js
+
 ## What is it
 I think this project is a so pretty jQuery navigation bar plugin, and it supports bootstrap. Lightweight, only 12k compressed. You can refer the demo to use it.
 
