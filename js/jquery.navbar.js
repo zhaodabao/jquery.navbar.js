@@ -42,7 +42,7 @@ var identifiers = {},
 		event: {
 			autoClose: "mousedown"
 		},
-		animation: {
+		animation: { // requires jquery.easing.js
 			blockMove: "easeOutBack",
 			blockMoveDuration: 500,
 			verticalExpand: "easeOutBack",
