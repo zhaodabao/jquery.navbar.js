@@ -12,7 +12,7 @@ Requires [Easing Plugin](http://gsgd.co.uk/sandbox/jquery/easing/) for Menu Anim
 [Lightblue Style](http://htmlpreview.github.io/?https://github.com/zhaodabao/jquery.navbar.js/master/demo/demo2.html)
 
 ## Compatibility
-IE 9+, FF, Chrome, Safari
+IE 9+, Chrome
 
 ## License
 MIT
