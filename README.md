@@ -33,6 +33,7 @@ $("#nav").css("position", "static").navbar({
             text: "Child",
             icon: "images/child.png",
             action: clickMenu
+        }]
     }]
     // there's more, have a look at the demos and options
 });
