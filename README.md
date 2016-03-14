@@ -23,7 +23,9 @@ $("#nav").css("position", "static").navbar({
         id: "1",
         text: "Foo",
         icon: "images/foo.png",
-        action: clickMenu
+        action: function( m ) {
+            // to do
+        }
     }, {
         id: "2",
         text: "Bar",
@@ -32,7 +34,9 @@ $("#nav").css("position", "static").navbar({
             id: "2.1",
             text: "Child",
             icon: "images/child.png",
-            action: clickMenu
+            action: function( m ) {
+                // to do
+            }
         }]
     }]
     // there's more, have a look at the demos and options
@@ -71,6 +75,27 @@ have a look at demos:
   - `horizontalCollapse` - the horizontal collapse animation effect of secondary submenu.
   - `horizontalCollapseDuration` - millisecond, the horizontal collapse animation duration of secondary submenu.
   - `horizontalCollapseDelay` - millisecond, the horizontal collapse animation delay of secondary submenu.
+
+## Functions
+`destory` - destory the navigation bar.  
+`disabled` - change the usable status of the menu. Two parameters, menu's id and new status.  
+`text` - change the label of the menu. Two parameters, menu's id and new label text.  
+`icon` - change the icon of the menu. Two parameters, menu's id and new image path.
+
+for example:  
+```js 
+$(document).ready(function() {
+
+var $nav = $("#nav").css("position", "static").navbar({
+    menu: [ // elements of the navbar ]
+});
+
+$nav.navbar("disabled", "1", true);
+$nav.navbar("text", "1", "HelloWorld");
+$nav.navbar("icon", "1", "images/hello.png");
+
+});
+```
 
 ## Compatibility
 IE 9+, Chrome
