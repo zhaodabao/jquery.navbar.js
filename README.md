@@ -15,7 +15,7 @@ HTML:
 <div id="nav"></div>
 ```
 JavaScript:
-```javascript  
+```js 
 $("#nav").css("position", "static").navbar({
     skin: "bootstrap",
     // define the elements of the navbar
@@ -41,6 +41,36 @@ $("#nav").css("position", "static").navbar({
 have a look at demos:  
 [Bootstrap Style Demo](http://htmlpreview.github.io/?https://github.com/zhaodabao/jquery.navbar.js/master/demo/demo.html)  
 [Lightblue Style Demo](http://htmlpreview.github.io/?https://github.com/zhaodabao/jquery.navbar.js/master/demo/demo2.html)
+
+## Options
+`menu` - is a array that is the menu of navigation bar.  
+*normal menu object attributes:*  
+  - `id` - the unique identifies of menu object.
+  - `text` - is a string label of menu.
+  - `icon` - the icon image of menu object.
+  - `disabled` - boolean, be used to define the menu can usable or not.
+  - `action` - is a function that is called when a menu is clicked. It is passed a parameter, in order to let you get all the attributes of the menu.
+  - `children` - array, be used to define sub menu. The data format as menu.  
+  
+*separator menu object attribute:*  
+  - `separator` - true.
+
+`skin` - we have defined two style for you to use: **bootstrap** and **lightblue**.  
+`animation` - is a parameter set that be used to define the animation effects:
+  - `blockMove` - the animation effect of primary submenu.
+  - `blockMoveDuration` - millisecond, the animation duration of primary submenu.
+  - `verticalExpand` - the vertical expand animation effect of secondary submenu.
+  - `verticalExpandDuration` - millisecond, the vertical expand animation duration of secondary submenu.
+  - `verticalExpandDelay` - millisecond, the vertical expand animation delay of secondary submenu.
+  - `verticalCollapse` - the vertical collapse animation effect of secondary submenu.
+  - `verticalCollapseDuration` - millisecond, the vertical collapse animation duration of secondary submenu.
+  - `verticalCollapseDelay` - millisecond, the vertical collapse animation delay of secondary submenu.
+  - `horizontalExpand` - the horizontal expand animation effect of secondary submenu.
+  - `horizontalExpandDuration` - millisecond, the horizontal expand animation duration of secondary submenu.
+  - `horizontalExpandDelay` - millisecond, the horizontal expand animation delay of secondary submenu.
+  - `horizontalCollapse` - the horizontal collapse animation effect of secondary submenu.
+  - `horizontalCollapseDuration` - millisecond, the horizontal collapse animation duration of secondary submenu.
+  - `horizontalCollapseDelay` - millisecond, the horizontal collapse animation delay of secondary submenu.
 
 ## Compatibility
 IE 9+, Chrome
