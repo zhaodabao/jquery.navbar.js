@@ -43,8 +43,8 @@ $("#nav").css("position", "static").navbar({
 });
 ```  
 have a look at demos:  
-[Bootstrap Style Demo](http://htmlpreview.github.io/?https://github.com/zhaodabao/jquery.navbar.js/master/demo/demo.html)  
-[Lightblue Style Demo](http://htmlpreview.github.io/?https://github.com/zhaodabao/jquery.navbar.js/master/demo/demo2.html)
+[Bootstrap Style Demo](https://zhaodabao.github.io/jquery.navbar.js/demo/demo.html)  
+[Lightblue Style Demo](https://zhaodabao.github.io/jquery.navbar.js/demo/demo2.html)
 
 ## Options
 `menu` - is a array that is the menu of navigation bar.  
