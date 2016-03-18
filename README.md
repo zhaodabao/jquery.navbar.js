@@ -86,13 +86,13 @@ for example:
 ```js 
 $(document).ready(function() {
 
-var $nav = $("#nav").css("position", "static").navbar({
-    menu: [ // elements of the navbar ]
-});
+    var $nav = $("#nav").css("position", "static").navbar({
+        menu: [ // elements of the navbar ]
+    });
 
-$nav.navbar("disabled", "1", true);
-$nav.navbar("text", "1", "HelloWorld");
-$nav.navbar("icon", "1", "images/hello.png");
+    $nav.navbar("disabled", "1", true);
+    $nav.navbar("text", "1", "HelloWorld");
+    $nav.navbar("icon", "1", "images/hello.png");
 
 });
 ```
