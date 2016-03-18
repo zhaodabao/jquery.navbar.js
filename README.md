@@ -5,7 +5,7 @@ I think this project is a so pretty jQuery navigation bar plugin, and it support
   
 Requires [Easing Plugin](http://gsgd.co.uk/sandbox/jquery/easing/) for Menu Animations.  
   
-![screenshot](https://github.com/zhaodabao/jquery.navbar.js/raw/master/demo/images/screenshot.png "jquery.navbar.js")
+![screenshot](./demo/images/screenshot.png "jquery.navbar.js")
 
 ## Usage
 register navigation bar from javascript:  
